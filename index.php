@@ -3,19 +3,17 @@
 <html>
 
 <head>
-	<style>
-    	body {
-        	background-color:<?=$background_color?>
-        }
-	</style>
+	<style type='text/css'>
++   </style>
+	
 	<?php
 		require_once('logic.php');
 	?>
 </head>
 
 <body>
-	<img src='images/<?=$image?>'>
-	
+	<img class="displayed" src='images/<?=$image?>'>
+	<p>Today is: <?=$time?></p>	
 	
 </body>
 </html>

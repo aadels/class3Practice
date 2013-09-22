@@ -1,6 +1,7 @@
 <?php
 date_default_timezone_set('America/New_York');
 $now = date('G');
+$time = date('g:ia');
 
 if($now >=6 && $now <=20 ) {
 	$background_color = '#96dff4';
