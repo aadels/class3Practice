@@ -4,6 +4,7 @@ $now = date('G');
 
 if($now <= 6 && $now >=20 ) {
 	$background_color = '#96dff4';
+}
 
 else {
 	$background_color = '#000';
