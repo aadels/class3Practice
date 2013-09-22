@@ -14,6 +14,7 @@
 </head>
 
 <body>
+	<img src='images/<?=$image?>'>
 	
 	
 </body>
