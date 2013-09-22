@@ -13,7 +13,8 @@
 
 <body>
 	<img class="displayed" src='images/<?=$image?>'>
-	<p>Today is: <?=$time?></p>	
+	<p>Today is:  <?=$time?></p>	
+
 	
 </body>
 </html>
