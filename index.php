@@ -3,7 +3,7 @@
 <html>
 
 <head>
-	<style type='text/css'>
+	<style>
     	body {
         	background-color:<?=$background_color?>
         }
