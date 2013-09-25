@@ -10,7 +10,7 @@
 	?>
 </head>
 
-<body class= '<?=class?>'>
+<body class= '<?=$class?>'>
 	<h1>Week 3 Exercise: Day/Night</h1> 
 	<img class="displayed" src='images/<?=$image?>'>
 	<p>The time is:  <?=$time?></p>	
