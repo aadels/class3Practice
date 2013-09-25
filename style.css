@@ -1,6 +1,4 @@
-body {
-     	background-color: <?$background_color?>;
-}
+
 
 img.displayed {
     	display: block;
@@ -10,4 +8,11 @@ img.displayed {
 
 p {
 		text-align:center
+}
+.night{
+	background-color: #000;
+}
+
+.day {
+	background-color: #96dff4;
 }

@@ -4,12 +4,12 @@ $now = date('G');
 $time = date('g:ia');
 
 if($now >=6 || $now <=20 ) {
-	$background_color = "#96dff4";
+	$class = 'day';
 	$image = 'sun.png';
 }
 
 else {
-	$background_color = "#000";
+	$class = 'night';
 	$image = 'moon.png';
 }
 
