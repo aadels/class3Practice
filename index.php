@@ -5,7 +5,7 @@
 <head>
 	<style type='text/css'>
 		body {
-     		background-color: <?php echo $background_color; ?>
+     		background-color: <?=$background_color?>
 		}
 
 		img.displayed {
