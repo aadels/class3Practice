@@ -2,3 +2,8 @@ body {
      	background-color:<?=$background_color?>
 }
 
+img.displayed {
+    	display: block;
+    	margin-left: auto;
+    	margin-right: auto 
+}

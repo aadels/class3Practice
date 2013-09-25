@@ -3,8 +3,7 @@
 <html>
 
 <head>
-	<style type='text/css'>
-+   </style>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	
 	<?php
 		require_once('logic.php');
@@ -13,7 +12,7 @@
 
 <body>
 	<img class="displayed" src='images/<?=$image?>'>
-	<p>Today is:  <?=$time?></p>	
+	<p>The time is:  <?=$time?></p>	
 
 	
 </body>
