@@ -9,10 +9,12 @@ img.displayed {
 p {
 		text-align:center
 }
-.night{
+.night {
 	background-color: #000;
+	color: #FFF;
 }
 
 .day {
 	background-color: #96dff4;
+	color: #000;
 }
