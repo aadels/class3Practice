@@ -1,8 +1,14 @@
 body {
-     	background-color:<?=$background_color?>
+     	background-color:<?php=$background_color?>
 }
 
 img.displayed {
+    	display: block;
+    	margin-left: auto;
+    	margin-right: auto 
+}
+
+p  {
     	display: block;
     	margin-left: auto;
     	margin-right: auto 
