@@ -1,5 +1,5 @@
 body {
-     	background-color:<?php=$background_color?>
+     	background-color: <?php echo $background_color; ?>
 }
 
 img.displayed {
