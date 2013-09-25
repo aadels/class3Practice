@@ -3,8 +3,21 @@
 <html>
 
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	
+	<style type='text/css'>
+		body {
+     		background-color: <?php echo $background_color; ?>
+		}
+
+		img.displayed {
+    		display: block;
+    		margin-left: auto;
+    		margin-right: auto 
+		}
+
+		p {
+			text-align:center
+		}
+	</style>
 	<?php
 		require_once('logic.php');
 	?>
