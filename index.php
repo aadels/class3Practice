@@ -3,28 +3,14 @@
 <html>
 
 <head>
-	<style type='text/css'>
-		body {
-     		background-color: <?=$background_color?>
-		}
-
-		img.displayed {
-    		display: block;
-    		margin-left: auto;
-    		margin-right: auto 
-		}
-
-		p {
-			text-align:center
-		}
-	</style>
+	<title>Day/Night</title>
+	<link rel="stylesheet" href="styles.css" type="text/css">
 	<?php
 		require_once('logic.php');
 	?>
 </head>
 
-    <?php echo $background_color?>
-
+<body>
 	<h1>Week 3 Exercise: Day/Night</h1> 
 	<img class="displayed" src='images/<?=$image?>'>
 	<p>The time is:  <?=$time?></p>	
